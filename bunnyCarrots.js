@@ -69,3 +69,28 @@ console.log( 'cars:' , cars );
 vehicles = motorcycles + cars;
 console.log('total vehicles:' , vehicles );
 
+
+
+//specifically string variables
+console.log( 'js ');
+let catName = 'Pants';
+let catAge = 15;
+console.log( catName );
+
+//concatination with a comma only works in the console log
+console.log( 'The name of my cat is' , catName );
+console.log( 'The age of my cat is:', catAge );
+
+//we can also concatinate with the + sign.
+let sentence = 'This is the sentence about my cat named ' + catName;
+console.log( sentence );
+
+sentence = 'My cat is ' + catAge + ' years old.';
+console.log( sentence );
+
+//Another cat named Bello
+catName = 'Bello';
+catAge = 11;
+
+sentence = 'Later on, a different one of my cats is ' + catAge + ' years old and is named ' + catName;
+console.log( sentence );
