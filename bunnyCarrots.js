@@ -30,5 +30,42 @@ plants--;
 console.log( plants );
 
 
+
 let motorcycles = 9;
+let cars = 0;
+let vehicles = motorcycles + cars;
+
+console.log( 'bikes:' , motorcycles );
+console.log( 'cars:' , cars );
+console.log('total vehicles:' , vehicles );
+console.log ( 'had to put soft tail in the garage' );
+
+//decrement of 1 motorcycle
+motorcycles--; //subtract 1 motorcycle from the variable
+console.log( 'bikes:' , motorcycles );
+vehicles = motorcycles + cars;
+console.log('total vehicles:' , vehicles );
+
+console.log( 'missed the bike so I bought 2 lambos' );
+cars += 2;
+console.log( 'bikes:' , motorcycles );
+console.log( 'cars:', cars ); 
+vehicles = motorcycles + cars;
+console.log('total vehicles:' , vehicles );
+
+console.log( 'wanted a Jetta, bought 1');
+cars++;
+console.log( 'sold 3 bikes');
+motorcycles -= 3;
+console.log( 'bikes:' , motorcycles );
+console.log( 'cars:' , cars );
+vehicles = motorcycles + cars;
+console.log('total vehicles:' , vehicles );
+
+console.log( 'got the soft tail out of the garage');
+motorcycles++;
+console.log( 'bikes:' , motorcycles );
+console.log( 'cars:' , cars );
+vehicles = motorcycles + cars;
+console.log('total vehicles:' , vehicles );
 
